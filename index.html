@@ -3,6 +3,32 @@
 
 
 <head>
+    <style>
+        .column{
+            -ms-flex: 0 0 20%;
+            flex: 0 0 20%;
+            max-width: 20%;
+        }
+        .testimonial-img img{
+            display: flex;
+            justify-content: space-around;
+        }
+        @media screen and (max-width:800px){
+            .column{
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%
+            }
+            .images{
+                display: none;
+            }
+        }
+    </style>
+    <script>
+        if(window.innerWidth<=800){
+            document.getElementsByClassName("scroll-down").style.display="block";
+        }
+    </script>
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
@@ -381,56 +407,57 @@
                 <h2 class="main-font"><span class="d-block text-blue">Our Team</span></h2>
             </div>
         </div>
+        <div class="scroll-down"><p style="font-size: 5rem;display:none !important;">&darr;</p></div>
         <div class="images container">
             <div class="row">
-                <div class="testimonial-img mt-4 col-2" >
-                    <img src="/vendor/Images/Our Team/Nikhil 1.JPG" alt="student img" style="height:9rem;width:9rem">
+                <div class="testimonial-img mt-3 column" >
+                    <img src="/vendor/Images/Our Team/Nikhil 1.JPG" alt="student img" style="height:200px;width:200px">
                 </div>
-                <div class="testimonial-img mt-4 col-2">
-                    <img src="/vendor/Images/Our Team/SUVIGYA SAXENA.jpg" alt="student img" style="height:9rem;width:auto">
+                <div class="testimonial-img mt-3 column">
+                    <img src="/vendor/Images/Our Team/SUVIGYA SAXENA.jpg" alt="student img" style="height:200px;width:200px">
                 </div>
-                <div class="testimonial-img mt-4 col-2">
-                    <img src="/vendor/Images/Our Team/SHINJON DAS 2.jpg" alt="student img" style="height:9rem;width:auto">
+                <div class="testimonial-img mt-3 column">
+                    <img src="/vendor/Images/Our Team/SHINJON DAS 2.jpg" alt="student img" style="height:200px;width:200px">
                 </div>
-                <div class="testimonial-img mt-4 col-2">
-                    <img src="/vendor/Images/Our Team/Sourya Mukherjee.jpg" alt="student img" style="height:9rem;width:auto">
+                <div class="testimonial-img mt-3 column">
+                    <img src="/vendor/Images/Our Team/Sourya Mukherjee.jpg" alt="student img" style="height:200px;width:200px">
                 </div>
-                <div class="testimonial-img mt-4 col-2">
-                    <img src="/vendor/Images/Our Team/Hritika Rathi.jpg" alt="student img" style="height:9rem;width:auto">
-                </div>
-            </div>
-            <div class="row">
-                <div class="testimonial-img mt-4 col-2">
-                    <img src="/vendor/Images/Our Team/jeevan sai 2.jpg" alt="student img" style="height:9rem;width:auto;">
-                </div>
-                <div class="testimonial-img mt-4 col-2">
-                    <img src="/vendor/Images/Our Team/Yuthirshta Prasad.jpg" alt="student img" style="height:9rem;width:auto">
-                </div>
-                <div class="testimonial-img mt-4 col-2">
-                    <img src="/vendor/Images/Our Team/Komal.jpeg" alt="student img" style="height:9rem;width:auto">
-                </div>
-                <div class="testimonial-img mt-4 col-2">
-                    <img src="/vendor/Images/Our Team/Akhil Gurram.jpg" alt="student img" style="height:9rem;width:auto">
-                </div>
-                <div class="testimonial-img mt-4 col-2">
-                    <img src="/vendor/Images/Our Team/CHALLAJAYA SIMHA 2.jpg" alt="student img " style="height:9rem;width:auto">
+                <div class="testimonial-img mt-3 column">
+                    <img src="/vendor/Images/Our Team/Hritika Rathi.jpg" alt="student img" style="height:200px;width:200px">
                 </div>
             </div>
             <div class="row">
-                <div class="testimonial-img mt-4 col-2">
-                    <img src="/vendor/Images/Our Team/Nathan Shankar 2.jpg" alt="student img" style="height:9rem;width:auto">
+                <div class="testimonial-img mt-4 column">
+                    <img src="/vendor/Images/Our Team/jeevan sai 2.jpg" alt="student img" style="height:200px;width:200px">
                 </div>
-                <div class="testimonial-img mt-4 col-2">
-                    <img src="/vendor/Images/Our Team/Nayan Keshri.jpg" alt="student img" style="height:9rem;width:auto">
+                <div class="testimonial-img mt-3 column">
+                    <img src="/vendor/Images/Our Team/Yuthirshta Prasad.jpg" alt="student img" style="height:200px;width:200px">
                 </div>
-                <div class="testimonial-img mt-4 col-2">
-                    <img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:9rem;width:auto">
+                <div class="testimonial-img mt-3 column">
+                    <img src="/vendor/Images/Our Team/Komal.jpeg" alt="student img" style="height:200px;width:200px">
                 </div>
-                <div class="testimonial-img mt-4 col-2">
-                    <img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:9rem;width:auto">
+                <div class="testimonial-img mt-3 column">
+                    <img src="/vendor/Images/Our Team/Akhil Gurram.jpg" alt="student img" style="height:200px;width:200px">
                 </div>
-                <div class="testimonial-img mt-4 col-2">
-                    <img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:9rem;width:auto">
+                <div class="testimonial-img mt-3 column">
+                    <img src="/vendor/Images/Our Team/CHALLAJAYA SIMHA 2.jpg" alt="student img " style="height:200px;width:200px">
+                </div>
+            </div>
+            <div class="row">
+                <div class="testimonial-img mt-3 column">
+                    <img src="/vendor/Images/Our Team/Nathan Shankar 2.jpg" alt="student img" style="height:200px;width:200px">
+                </div>
+                <div class="testimonial-img mt-3 column">
+                    <img src="/vendor/Images/Our Team/Nayan Keshri.jpg" alt="student img" style="height:200px;width:200px">
+                </div>
+                <div class="testimonial-img mt-3 column">
+                    <img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:200px;width:200px">
+                </div>
+                <div class="testimonial-img mt-3 column">
+                    <img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:200px;width:200px">
+                </div>
+                <div class="testimonial-img mt-3 column">
+                    <img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:200px;width:200px">
                 </div>
             </div>
             
