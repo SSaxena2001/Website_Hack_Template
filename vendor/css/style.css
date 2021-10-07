@@ -1503,6 +1503,8 @@ section {
 
 .image-holder-gallery {
   overflow: hidden;
+  height:200px;
+  width:auto;
 }
 
 .row-padding {

@@ -13,27 +13,22 @@
             display: flex;
             justify-content: space-around;
         }
+        
         @media screen and (max-width:800px){
             .column{
                 -ms-flex: 0 0 100%;
                 flex: 0 0 100%;
-                max-width: 100%
-            }
-            .images{
-                display: none;
+                max-width: 100%;
+                align-items: left !important;
             }
         }
     </style>
-    <script>
-        if(window.innerWidth<=800){
-            document.getElementsByClassName("scroll-down").style.display="block";
-        }
-    </script>
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
     <!-- Author -->
     <meta name="author" content="Themes Industry">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Description -->
     <meta name="description" content="MegaOne is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose studio and portfolio HTML5 template with ready home page demos.">
     <!-- Page Title -->
@@ -263,7 +258,7 @@
             <div class="col-12 col-md-4">
                 <div class="news-item">
                     <div class="image-holder-gallery">
-                        <img alt="image" src="https://megaone.acrothemes.com/cars-automobile/images/about-img-3.jpg">
+                        <img alt="image" src="vendor/Images/ec2.png">
                     </div>
                     <div class="news-text-box">
                         <a href="#"><h4 class="news-title main-font">IEEE CAS</h4></a>
@@ -411,53 +406,58 @@
         <div class="images container">
             <div class="row">
                 <div class="testimonial-img mt-3 column" >
-                    <img src="/vendor/Images/Our Team/Nikhil 1.JPG" alt="student img" style="height:200px;width:200px">
+                    <script>
+                        $(document).ready(function(){
+                        $('[data-toggle="tooltip"]').tooltip();   
+                        });
+                    </script>
+                    <a href="#" data-toggle="tooltop" title="Nikhilanand Jha"><img src="/vendor/Images/Our Team/Nikhil 1.JPG" alt="student img" style="height:200px;width:200px"></a>
                 </div>
                 <div class="testimonial-img mt-3 column">
-                    <img src="/vendor/Images/Our Team/SUVIGYA SAXENA.jpg" alt="student img" style="height:200px;width:200px">
+                    <a href="#" data-toggle="tooltop" title="Suvigya Saxena"><img src="/vendor/Images/Our Team/SUVIGYA SAXENA.jpg" alt="student img" style="height:200px;width:200px"></a>
                 </div>
                 <div class="testimonial-img mt-3 column">
-                    <img src="/vendor/Images/Our Team/SHINJON DAS 2.jpg" alt="student img" style="height:200px;width:200px">
+                    <a href="#" data-toggle="tooltop" title="Shinjon Das"><img src="/vendor/Images/Our Team/SHINJON DAS 2.jpg" alt="student img" style="height:200px;width:200px"></a>
                 </div>
                 <div class="testimonial-img mt-3 column">
-                    <img src="/vendor/Images/Our Team/Sourya Mukherjee.jpg" alt="student img" style="height:200px;width:200px">
+                    <a href="#" data-toggle="tooltop" title="Sourya Mukherjee"><img src="/vendor/Images/Our Team/Sourya Mukherjee.jpg" alt="student img" style="height:200px;width:200px"></a>
                 </div>
                 <div class="testimonial-img mt-3 column">
-                    <img src="/vendor/Images/Our Team/Hritika Rathi.jpg" alt="student img" style="height:200px;width:200px">
+                    <a href="#" data-toggle="tooltop" title="Hritika Rathi"><img src="/vendor/Images/Our Team/Hritika Rathi.jpg" alt="student img" style="height:200px;width:200px"></a>
                 </div>
             </div>
             <div class="row">
                 <div class="testimonial-img mt-4 column">
-                    <img src="/vendor/Images/Our Team/jeevan sai 2.jpg" alt="student img" style="height:200px;width:200px">
+                    <a href="#" data-toggle="tooltop" title="Jeevan Sai"><img src="/vendor/Images/Our Team/jeevan sai 2.jpg" alt="student img" style="height:200px;width:200px"></a>
                 </div>
                 <div class="testimonial-img mt-3 column">
-                    <img src="/vendor/Images/Our Team/Yuthirshta Prasad.jpg" alt="student img" style="height:200px;width:200px">
+                    <a href="#" data-toggle="tooltop" title="Yuthirshta Prasad"><img src="/vendor/Images/Our Team/Yuthirshta Prasad.jpg" alt="student img" style="height:200px;width:200px"></a>
                 </div>
                 <div class="testimonial-img mt-3 column">
-                    <img src="/vendor/Images/Our Team/Komal.jpeg" alt="student img" style="height:200px;width:200px">
+                    <a href="#" data-toggle="tooltop" title="Komal Yerramsetti"><img src="/vendor/Images/Our Team/Komal.jpeg" alt="student img" style="height:200px;width:200px"></a>
                 </div>
                 <div class="testimonial-img mt-3 column">
-                    <img src="/vendor/Images/Our Team/Akhil Gurram.jpg" alt="student img" style="height:200px;width:200px">
+                    <a href="#" data-toggle="tooltop" title="Akhil Gurram"><img src="/vendor/Images/Our Team/Akhil Gurram.jpg" alt="student img" style="height:200px;width:200px"></a>
                 </div>
                 <div class="testimonial-img mt-3 column">
-                    <img src="/vendor/Images/Our Team/CHALLAJAYA SIMHA 2.jpg" alt="student img " style="height:200px;width:200px">
+                    <a href="#" data-toggle="tooltop" title="Challa Jaysimha"><img src="/vendor/Images/Our Team/CHALLAJAYA SIMHA 2.jpg" alt="student img " style="height:200px;width:200px"></a>
                 </div>
             </div>
             <div class="row">
                 <div class="testimonial-img mt-3 column">
-                    <img src="/vendor/Images/Our Team/Nathan Shankar 2.jpg" alt="student img" style="height:200px;width:200px">
+                    <a href="#" data-toggle="tooltop" title="Nathan Shankar"><img src="/vendor/Images/Our Team/Nathan Shankar 2.jpg" alt="student img" style="height:200px;width:200px"></a>
                 </div>
                 <div class="testimonial-img mt-3 column">
-                    <img src="/vendor/Images/Our Team/Nayan Keshri.jpg" alt="student img" style="height:200px;width:200px">
+                    <a href="#" data-toggle="tooltop" title="Nayan Keshri"><img src="/vendor/Images/Our Team/Nayan Keshri.jpg" alt="student img" style="height:200px;width:200px"></a>
                 </div>
                 <div class="testimonial-img mt-3 column">
-                    <img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:200px;width:200px">
+                    <a href="#" data-toggle="tooltop" title="Tanmay Srivastava"><img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:200px;width:200px"></a>
                 </div>
                 <div class="testimonial-img mt-3 column">
-                    <img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:200px;width:200px">
+                    <a href="#" data-toggle="tooltop" title="Avinash N"><img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:200px;width:200px"></a>
                 </div>
                 <div class="testimonial-img mt-3 column">
-                    <img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:200px;width:200px">
+                    <a href="#" data-toggle="tooltop" title="Ritika Sinha"><img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:200px;width:200px"></a>
                 </div>
             </div>
             
