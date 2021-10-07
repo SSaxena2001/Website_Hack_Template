@@ -242,6 +242,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #ffffff;
+  background-color: #1b1b1b;
   font-weight: 300;
   line-height: 32px;
   width: 100%;
@@ -1329,7 +1330,7 @@ section {
   background-image: url("../images/BGD1.png");
   height: 100vh;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
 }
 
 .slider-image {
