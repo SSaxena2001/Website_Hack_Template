@@ -160,7 +160,15 @@
 <section class="p-0" id="home-banner">
     <div class="slider-area" id="slider-area">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row align-items-center swap">
+                <style>
+                    @media screen and (max-width:800px){
+                        .swap{
+                            display: flex;
+                            flex-flow: column-reverse;
+                            }
+                    }
+                </style>
                 <div class="col-12 col-md-6">
                     <h1 class="main-font font-weight-bold text-white"> CASCADE<span class="d-block text-blue">2022 </span></h1>
                     <p class="alt-font text-white my-3">Lazy or selective participation. Either way, hackathons are where your crazy ideas become a reality.</p>
@@ -223,7 +231,7 @@
         <div class="row section-heading">
             <div class="col-12 main-heading text-center">
                 <h2 class="main-font">About<span class="d-block text-blue">CASCADE</span></h2>
-                <p class="alt-font mt-4">Brought to you by the same minds that came up with Embed 3.0, Beyond Cloud IoT 2.0 and Imagify 3.0<span class="d-block"> Lorem Ipsum has been the industry’s standard dummy.</span></p>
+                <p class="alt-font mt-4" >Brought to you by the same minds that came up with Embed 3.0, Beyond Cloud IoT 2.0 and Imagify 3.0<span class="d-block"> Lorem Ipsum has been the industry’s standard dummy.</span></p>
             </div>
         </div>
         <!--Row-->
@@ -236,7 +244,8 @@
                     </div>
                     <div class="news-text-box">
                         <a href="#"><h4 class="news-title main-font">Vellore Institute of Technology, Vellore</h4></a>
-                        <p class="para alt-font">VIT Vellore founded in the year 1984 as Vellore Engineering College and was established with the aim to provide global standard higher education to students in fields such as Science, Engineering & Technology, Business Administration, Design, Law. It persistently seeks to adopt innovative methods to improve the quality of higher education in India on a consistent basis.  VIT Vellore is affiliated with the VIT University and is accredited from UGC and NAAC.</p>
+                        <a href="cascade-text" data-toggle="collapse" href="#collapse-text" role="button">Know More</a>
+                        <p class="para alt-font" id="collapse-text">VIT Vellore founded in the year 1984 as Vellore Engineering College and was established with the aim to provide global standard higher education to students in fields such as Science, Engineering & Technology, Business Administration, Design, Law. It persistently seeks to adopt innovative methods to improve the quality of higher education in India on a consistent basis.  VIT Vellore is affiliated with the VIT University and is accredited from UGC and NAAC.</p>
                         <a  href="https://vit.ac.in/" class="text-capitalize btn-red">Learn More</a>
                     </div>
                 </div>
@@ -394,100 +403,90 @@
 </section>
 <!-- END COUNTER -->
 
-<!-- START TESTIMONIALS -->
-<section class="section slide4 reviews" id="reviews" >
-    <div class="container expand-container">
-        <div class="row main-heading">
-            <div class="col-12 main-heading text-center">
-                <h2 class="main-font"><span class="d-block text-blue">Our Team</span></h2>
-            </div>
-        </div>
-        <div class="scroll-down"><p style="font-size: 5rem;display:none !important;">&darr;</p></div>
-        <div class="images container">
-            <div class="row">
-                <div class="testimonial-img mt-3 column" >
-                    <script>
-                        $(document).ready(function(){
-                        $('[data-toggle="tooltip"]').tooltip();   
-                        });
-                    </script>
-                    <a href="#" data-toggle="tooltop" title="Nikhilanand Jha"><img src="/vendor/Images/Our Team/Nikhil 1.JPG" alt="student img" style="height:200px;width:200px"></a>
-                </div>
-                <div class="testimonial-img mt-3 column">
-                    <a href="#" data-toggle="tooltop" title="Suvigya Saxena"><img src="/vendor/Images/Our Team/SUVIGYA SAXENA.jpg" alt="student img" style="height:200px;width:200px"></a>
-                </div>
-                <div class="testimonial-img mt-3 column">
-                    <a href="#" data-toggle="tooltop" title="Shinjon Das"><img src="/vendor/Images/Our Team/SHINJON DAS 2.jpg" alt="student img" style="height:200px;width:200px"></a>
-                </div>
-                <div class="testimonial-img mt-3 column">
-                    <a href="#" data-toggle="tooltop" title="Sourya Mukherjee"><img src="/vendor/Images/Our Team/Sourya Mukherjee.jpg" alt="student img" style="height:200px;width:200px"></a>
-                </div>
-                <div class="testimonial-img mt-3 column">
-                    <a href="#" data-toggle="tooltop" title="Hritika Rathi"><img src="/vendor/Images/Our Team/Hritika Rathi.jpg" alt="student img" style="height:200px;width:200px"></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="testimonial-img mt-4 column">
-                    <a href="#" data-toggle="tooltop" title="Jeevan Sai"><img src="/vendor/Images/Our Team/jeevan sai 2.jpg" alt="student img" style="height:200px;width:200px"></a>
-                </div>
-                <div class="testimonial-img mt-3 column">
-                    <a href="#" data-toggle="tooltop" title="Yuthirshta Prasad"><img src="/vendor/Images/Our Team/Yuthirshta Prasad.jpg" alt="student img" style="height:200px;width:200px"></a>
-                </div>
-                <div class="testimonial-img mt-3 column">
-                    <a href="#" data-toggle="tooltop" title="Komal Yerramsetti"><img src="/vendor/Images/Our Team/Komal.jpeg" alt="student img" style="height:200px;width:200px"></a>
-                </div>
-                <div class="testimonial-img mt-3 column">
-                    <a href="#" data-toggle="tooltop" title="Akhil Gurram"><img src="/vendor/Images/Our Team/Akhil Gurram.jpg" alt="student img" style="height:200px;width:200px"></a>
-                </div>
-                <div class="testimonial-img mt-3 column">
-                    <a href="#" data-toggle="tooltop" title="Challa Jaysimha"><img src="/vendor/Images/Our Team/CHALLAJAYA SIMHA 2.jpg" alt="student img " style="height:200px;width:200px"></a>
-                </div>
-            </div>
-            <div class="row">
-                <div class="testimonial-img mt-3 column">
-                    <a href="#" data-toggle="tooltop" title="Nathan Shankar"><img src="/vendor/Images/Our Team/Nathan Shankar 2.jpg" alt="student img" style="height:200px;width:200px"></a>
-                </div>
-                <div class="testimonial-img mt-3 column">
-                    <a href="#" data-toggle="tooltop" title="Nayan Keshri"><img src="/vendor/Images/Our Team/Nayan Keshri.jpg" alt="student img" style="height:200px;width:200px"></a>
-                </div>
-                <div class="testimonial-img mt-3 column">
-                    <a href="#" data-toggle="tooltop" title="Tanmay Srivastava"><img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:200px;width:200px"></a>
-                </div>
-                <div class="testimonial-img mt-3 column">
-                    <a href="#" data-toggle="tooltop" title="Avinash N"><img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:200px;width:200px"></a>
-                </div>
-                <div class="testimonial-img mt-3 column">
-                    <a href="#" data-toggle="tooltop" title="Ritika Sinha"><img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" style="height:200px;width:200px"></a>
-                </div>
-            </div>
-            
-        </div>
-        
-    </div>
-</section>
-<!-- END TESTIMONIALS -->
-
 <!-- START CONTACT -->
-<section class="section slide5 contact-sec" id="contact">
+<section class="section slide5 contact-sec" id="contact" style="height: 95vh;">
     <div class="container expand-container">
         <div class="row row">
             <div class="col-12 col-lg-7 main-heading">
-                <h2 class="main-font">Questions?<span class="d-block text-blue">Lets Get In Touch</span></h2>
-                <form class="row contact-form row-padding" id="contact-form-data">
-                    <div class="col-12 col-lg-8" id="result"></div>
-                    <div class="col-12 col-lg-8">
-                        <input type="text" name="userName" placeholder="Name" class="form-control">
-                        <input type="text" name="userPhone" placeholder="Contact No" class="form-control">
-                        <input type="email" name="userEmail" placeholder="Email" class="form-control">
-                        <textarea class="form-control" name="userMessage" rows="6" placeholder="Type Your Message Here"></textarea>
-                        <a href="javascript:void(0);" class="btn btn-medium btn-rounded btn-red rounded-pill w-100 contact_btn main-font">Submit Information</a>
+                <div class="container expand-container">
+                    <div class="row main-heading">
+                        <div class="col-12 main-heading text-center">
+                            <h4 class="heading main-font"><span class="d-block text-blue">Our Team</span></h4>
+                        </div>
                     </div>
-                </form>
+                    
+                    <div class="images container">
+                        <div class="row">
+                            <div class="testimonial-img mt-3 column" >
+                                <script>
+                                    $(document).ready(function(){
+                                    $('[data-toggle="tooltip"]').tooltip();   
+                                    });
+                                </script>
+                                <style>
+                                    .images img{
+                                        height:100px;
+                                        width:100px;
+                                    }
+                                </style>
+                                <a href="#" data-toggle="tooltop" title="Nikhilanand Jha"><img src="/vendor/Images/Our Team/Nikhil 1.JPG" alt="student img" ></a>
+                            </div>
+                            <div class="testimonial-img mt-3 column">
+                                <a href="#" data-toggle="tooltop" title="Suvigya Saxena"><img src="/vendor/Images/Our Team/SUVIGYA SAXENA.jpg" alt="student img" ></a>
+                            </div>
+                            <div class="testimonial-img mt-3 column">
+                                <a href="#" data-toggle="tooltop" title="Shinjon Das"><img src="/vendor/Images/Our Team/SHINJON DAS 2.jpg" alt="student img" ></a>
+                            </div>
+                            <div class="testimonial-img mt-3 column">
+                                <a href="#" data-toggle="tooltop" title="Sourya Mukherjee"><img src="/vendor/Images/Our Team/Sourya Mukherjee.jpg" alt="student img" ></a>
+                            </div>
+                            <div class="testimonial-img mt-3 column">
+                                <a href="#" data-toggle="tooltop" title="Hritika Rathi"><img src="/vendor/Images/Our Team/Hritika Rathi.jpg" alt="student img" ></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="testimonial-img mt-4 column">
+                                <a href="#" data-toggle="tooltop" title="Jeevan Sai"><img src="/vendor/Images/Our Team/jeevan sai 2.jpg" alt="student img" ></a>
+                            </div>
+                            <div class="testimonial-img mt-3 column">
+                                <a href="#" data-toggle="tooltop" title="Yuthirshta Prasad"><img src="/vendor/Images/Our Team/Yuthirshta Prasad.jpg" alt="student img" ></a>
+                            </div>
+                            <div class="testimonial-img mt-3 column">
+                                <a href="#" data-toggle="tooltop" title="Komal Yerramsetti"><img src="/vendor/Images/Our Team/Komal.jpeg" alt="student img" ></a>
+                            </div>
+                            <div class="testimonial-img mt-3 column">
+                                <a href="#" data-toggle="tooltop" title="Akhil Gurram"><img src="/vendor/Images/Our Team/Akhil Gurram.jpg" alt="student img" ></a>
+                            </div>
+                            <div class="testimonial-img mt-3 column">
+                                <a href="#" data-toggle="tooltop" title="Challa Jaysimha"><img src="/vendor/Images/Our Team/CHALLAJAYA SIMHA 2.jpg" alt="student img "></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="testimonial-img mt-3 column">
+                                <a href="#" data-toggle="tooltop" title="Nathan Shankar"><img src="/vendor/Images/Our Team/Nathan Shankar 2.jpg" alt="student img" ></a>
+                            </div>
+                            <div class="testimonial-img mt-3 column">
+                                <a href="#" data-toggle="tooltop" title="Nayan Keshri"><img src="/vendor/Images/Our Team/Nayan Keshri.jpg" alt="student img" ></a>
+                            </div>
+                            <div class="testimonial-img mt-3 column">
+                                <a href="#" data-toggle="tooltop" title="Tanmay Srivastava"><img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" ></a>
+                            </div>
+                            <div class="testimonial-img mt-3 column">
+                                <a href="#" data-toggle="tooltop" title="Avinash N"><img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" ></a>
+                            </div>
+                            <div class="testimonial-img mt-3 column">
+                                <a href="#" data-toggle="tooltop" title="Ritika Sinha"><img src="https://megaone.acrothemes.com/cars-automobile/images/testimonial-3.png" alt="student img" \></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
             </div>
             <div class="col-12 col-lg-5 text-center text-lg-left d-flex align-items-center">
-                <div class="contact-details wow fadeInRight">
-                    <h4 class="heading main-font">Store Location</h4>
-                    <p class="text alt-font">There are many variations of passages of Lorem Ipsum available, but the majority have suffered .</p>
+                <div class="contact-details wow fadeInRight" style="padding-top: 0 !important; font-size:0.95rem !important;">
+                    <h4 class="heading main-font">Wanna reach out to us?</h4>
+                    <p class="text alt-font">Here's our whereabouts.</p>
                     <ul>
                         <li><i aria-hidden="true" class="fas fa-location-arrow" style="font-size: 1.1rem;"></i> VIT University, Vellore Campus, Tamil Nadu, India. Pincode-632014 </li>
                         <li><i aria-hidden="true" class="fas fa-phone" style="font-size: 1.1rem;"></i>
@@ -497,21 +496,25 @@
                         <li><i aria-hidden="true" class="fas fa-envelope" style="font-size: 1.1rem;"></i><a href="mailto:casvit21@gmail.com">casvit21@gmail.com</a></li>
                          <li><i aria-hidden="true" class="fas fa-info-circle" style="font-size: 1.1rem;"></i><a href="https://ieeecasvit.com/">ieeecasvit.com</a></li>
                     </ul>
-                    <div class="slider-social side-icons">
-                        <ul class="list-unstyled d-flex">
-                            <a class="social-icon" href="https://m.facebook.com/IEEE-Circuits-and-Systems-VIT-510547166144799/?tsid=0.6325657127087607&source=result"><i class="fab fa-facebook-f"></i></a>
-                            <a class="social-icon" href="https://www.instagram.com/ieee_cas_vit;"><i class="fab fa-instagram"></i></a>
-                            <a class="social-icon" href="https://www.linkedin.com/company/43178728"><i class="fab fa-linkedin-in"></i></a>
-                            <a class="social-icon" href="https://ieeecasvit.medium.com/"><i class="fab fa-medium"></i></a>
-                            
-                            <a class="social-icon" href="https://ieeecasvit.com"><i class="far fa-address-card"></i></a>
-                            <a class="social-icon" href="https://discord.gg/XHGPT64mjS"><i class="fab fa-discord"></i></a>
-                        </ul>
-                    </div>
+                    
                 </div>
             </div>
         </div>
+        
+        <div class="slider-social side-icons" style="text-align: center; padding-left: 25vw;padding-top: 10vh;">
+                <ul class="list-unstyled d-flex">
+                        <a class="social-icon" href="https://m.facebook.com/IEEE-Circuits-and-Systems-VIT-510547166144799/?tsid=0.6325657127087607&source=result"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon" href="https://www.instagram.com/ieee_cas_vit;"><i class="fab fa-instagram"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/company/43178728"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://ieeecasvit.medium.com/"><i class="fab fa-medium"></i></a>
+                        
+                        <a class="social-icon" href="https://ieeecasvit.com"><i class="far fa-address-card"></i></a>
+                        <a class="social-icon" href="https://discord.gg/XHGPT64mjS"><i class="fab fa-discord"></i></a>
+                    
+                </ul>
+        </div>
     </div>
+
 </section>
 <!-- END CONTACT -->
 
