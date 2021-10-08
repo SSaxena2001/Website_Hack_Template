@@ -4,16 +4,25 @@
 
 <head>
     <style>
+        .testimonial-img{
+            border-radius: 50%;
+            margin-right: 2%;
+        }
         .column{
             -ms-flex: 0 0 20%;
             flex: 0 0 20%;
-            max-width: 20%;
+            max-width: 18%;
         }
         .testimonial-img img{
             display: flex;
             justify-content: space-around;
         }
-        
+        .testimonial-img:hover{
+           background: rgba(102, 45, 145, 1);
+        }
+        .testimonial-img img:hover{
+            opacity:0.4;
+        }
         @media screen and (max-width:800px){
             .column{
                 -ms-flex: 0 0 100%;
